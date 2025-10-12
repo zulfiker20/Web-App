@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Auth gradient background utility */
+.auth-gradient {
+	@apply bg-gradient-to-r from-[#667eea] via-[#764ba2] to-[#f6d365] bg-[length:200%_200%] animate-gradient-x;
+}
