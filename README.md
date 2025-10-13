@@ -42,10 +42,4 @@ php artisan serve
 - `POST /register` -> register
 - `GET /profile` -> edit profile (auth)
 
-## Notes & next steps
-- If you prefer `storage/app/public` storage with a symlink, we can switch uploads to use Laravel's storage disk and call `php artisan storage:link`.
-- I can add image resizing, admin preview, and caching for shared services on request.
 
----
-
-If you want further reorganization (move controllers into subfolders, add PSR-4 changes, or scaffold tests), tell me which area to prioritize.
