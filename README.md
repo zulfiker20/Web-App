@@ -2,11 +2,11 @@
 
 This repository contains a Laravel-based project portfolio demo with an admin panel and a small public site. The project has been cleaned and reorganized: auth routes are moved to `routes/Auth.php`, banner uploads are stored in `public/uploads`, and footer services no longer overwrite controller-provided data.
 
-## What changed in this cleanup
-- Organized routes: `routes/Auth.php` created and included from `routes/web.php`.
-- Banner uploads: stored in `public/uploads/` and `banners.img` stores `uploads/<filename>`.
-- Footer services: global share renamed to `footerServices` to avoid overwriting controller `$services`.
-- Removed duplicate .md files and added this consolidated `README.md`.
+## Login or Register
+- Login: https://web.zulfiker.top/login
+- Email: zulfikerhossain2023@gmail.com
+- Password:12345678
+- https://web.zulfiker.top/register
 
 ## Quick start
 1. Install dependencies:
