@@ -43,17 +43,17 @@ php artisan serve
 - `GET /profile` -> edit profile (auth)
 
 
-Frontend Routes
+## Frontend Routes<br>
 /                 -> Home<br>
-/about            -> About Page
-/services         -> All Services
-/services/{id}    -> Service Detail
-/teams            -> Teams Page
-/blogs            -> All Blogs
-/blogs/category/{id} -> Blogs by Category
-/blogs/{id}       -> Blog Detail
-/faq              -> FAQ Page
-/privacy-policy   -> Privacy Policy
-/terms-conditions -> Terms & Conditions
-/contact          -> Contact Form (GET & POST)
+/about            -> About Page<br>
+/services         -> All Services<br>
+/services/{id}    -> Service Detail<br>
+/teams            -> Teams Page<br>
+/blogs            -> All Blogs<br>
+/blogs/category/{id} -> Blogs by Category<br>
+/blogs/{id}       -> Blog Detail<br>
+/faq              -> FAQ Page<br>
+/privacy-policy   -> Privacy Policy<br>
+/terms-conditions -> Terms & Conditions<br>
+/contact          -> Contact Form (GET & POST)<br>
 
