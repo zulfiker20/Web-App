@@ -106,7 +106,7 @@ php artisan serve
 /admin/pages           -> Pages CRUD
 
 ### Technologies Used
-- **Backend:** Laravel 11
+- **Backend:** Laravel 12
 - **Database:** MySQL
 - **Authentication:** Laravel built-in auth system laravel breeze
 - **Routing:** Frontend and Admin routes organized with Route groups and middleware
