@@ -44,7 +44,7 @@ php artisan serve
 
 
 Frontend Routes
-/                 -> Home
+/                 -> Home<br>
 /about            -> About Page
 /services         -> All Services
 /services/{id}    -> Service Detail
