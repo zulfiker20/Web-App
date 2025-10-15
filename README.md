@@ -25,6 +25,24 @@ php artisan db:seed
 ```bash
 php artisan serve
 ```
+## Features
+
+### Frontend
+- Home Page – Main landing page.
+- About Page – Information about the company.
+- Services:
+  - List all services.
+  - View individual service details.
+- Teams – Display team members.
+- Blogs:
+  - List all blogs.
+  - Filter blogs by category.
+  - View individual blog details.
+- FAQ Page – Frequently Asked Questions.
+- Contact Page:
+  - Contact form with submission functionality.
+- Privacy Policy & Terms:
+  - Separate static pages for legal information.
 
 ## Important files
 - `routes/web.php` - main routes, includes `routes/Auth.php`.
