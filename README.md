@@ -43,6 +43,25 @@ php artisan serve
   - Contact form with submission functionality.
 - Privacy Policy & Terms:
   - Separate static pages for legal information.
+    
+### Admin Panel (Protected by Authentication)
+- Dashboard – Admin overview.
+- Banner Management:
+  - View and update homepage banners.
+- Service Management:
+  - CRUD operations for services.
+- About Management:
+  - CRUD operations for about sections.
+- FAQ Management:
+  - CRUD operations for FAQs.
+- Team Management:
+  - CRUD operations for team members.
+- Category Management:
+  - CRUD operations for blog or service categories.
+- Article/Blog Management:
+  - CRUD operations for articles/blogs.
+- Page Management:
+  - CRUD operations for additional static pages.
 
 ## Important files
 - `routes/web.php` - main routes, includes `routes/Auth.php`.
@@ -75,3 +94,19 @@ php artisan serve
 /terms-conditions -> Terms & Conditions<br>
 /contact          -> Contact Form (GET & POST)<br>
 
+## Admin Routes (Auth Protected)<br>
+/admin/dashboard       -> Admin Dashboard<br>
+/admin/banner          -> Banner CRUD<br>
+/admin/services        -> Service CRUD<br>
+/admin/about           -> About CRUD<br>
+/admin/faq             -> FAQ CRUD<br>
+/admin/teams           -> Team CRUD<br>
+/admin/categories      -> Category CRUD<br>
+/admin/articles        -> Article/Blog CRUD<br>
+/admin/pages           -> Pages CRUD
+
+### Technologies Used
+- **Backend:** Laravel 11
+- **Database:** MySQL
+- **Authentication:** Laravel built-in auth system laravel breeze
+- **Routing:** Frontend and Admin routes organized with Route groups and middleware
